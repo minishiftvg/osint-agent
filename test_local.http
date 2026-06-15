@@ -1,0 +1,18 @@
+### Test parsing comando
+POST https://ironforsale2010.pythonanywhere.com/test
+Content-Type: application/json
+X-Webhook-Secret: Leonardo2026!
+
+{
+  "message": "dominio: google.com"
+}
+
+### Test OSINT completo (il report arriva su Telegram)
+POST https://ironforsale2010.pythonanywhere.com/webhook/make
+Content-Type: application/json
+X-Webhook-Secret: Leonardo2026!
+
+{
+  "message": "dominio: github.com",
+  "chat_id": "8414833903"
+}
