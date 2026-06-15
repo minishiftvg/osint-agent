@@ -1,0 +1,5 @@
+flask
+google-generativeai
+httpx
+python-dotenv
+dnspython
